@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frontend Validation 1</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+  <body>
+    <h1>Form:</h1>
+    <hr />
+    <label>New task:</label
+    ><input
+      type="text"
+      name="text"
+      id="task"
+      placeholder="Required and must contain no html characters"
+    /><br />
+
+    <label>Task description:</label
+    ><textarea name="text" id="text">Optional.</textarea><br />
+    <label>Set Task due date:</label
+    ><input type="date" name="birthday" id="birthday" />
+    <span class="error">Required. Must select a date</span><br />
+    <label>Set Task due time:</label
+    ><input type="time" name="time" id="time" />
+    <span class="error">Required. Must select a time</span><br />
+
+    <input type="submit" />
+  </body>
+</html>
